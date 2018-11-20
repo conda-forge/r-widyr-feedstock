@@ -14,9 +14,8 @@ Summary: Encapsulates the pattern of untidying data into a wide matrix, performi
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-widyr-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-widyr-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-widyr-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-widyr-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-widyr-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-widyr-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-widyr-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-widyr-feedstock)
 
 Current release info
 ====================
