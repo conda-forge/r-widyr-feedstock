@@ -23,13 +23,17 @@ build:
 requirements:
   build:
     - {{ posix }}zip               # [win]
+    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
     - r-matrix
     - r-broom
     - r-dplyr
+    - r-gapminder
     - r-purrr
     - r-reshape2
+    - r-rlang
+    - r-tibble
     - r-tidyr
     - r-tidytext
   run:
@@ -37,8 +41,11 @@ requirements:
     - r-matrix
     - r-broom
     - r-dplyr
+    - r-gapminder
     - r-purrr
     - r-reshape2
+    - r-rlang
+    - r-tibble
     - r-tidyr
     - r-tidytext
 
