@@ -1,4 +1,4 @@
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/widyr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/widyr/widyr_{{ version }}.tar.gz
-  sha256: 8fb7253d257ae44664192b8aac6e26fbbd11211afeb9df5f3b9c0fd04386baa9
+  sha256: d61906589bfd24ff3e4cb0db7a1be5e337a1057dbdaeffbbc2faba4c35046014
 
 build:
   merge_build_host: true  # [win]
