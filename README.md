@@ -1,11 +1,11 @@
-About r-widyr
-=============
+About r-widyr-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-widyr-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/dgrtwo/widyr
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-widyr-feedstock/blob/main/LICENSE.txt)
 
 Summary: Encapsulates the pattern of untidying data into a wide matrix, performing some processing, then turning it back into a tidy form. This is useful for several operations such as co-occurrence counts, correlations, or clustering that are mathematically convenient on wide matrices.
 
